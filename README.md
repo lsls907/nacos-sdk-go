@@ -16,7 +16,7 @@ Supported Nacos version over 1.x
 ## Installation
 Use `go get` to install SDK：
 ```sh
-$ go get -u github.com/nacos-group/nacos-sdk-go
+$ go get -u github.com/lsls907/nacos-sdk-go
 ```
 ## Quick Examples
 * ClientConfig

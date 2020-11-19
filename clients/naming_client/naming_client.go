@@ -24,12 +24,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nacos-group/nacos-sdk-go/clients/cache"
-	"github.com/nacos-group/nacos-sdk-go/clients/nacos_client"
-	"github.com/nacos-group/nacos-sdk-go/common/constant"
-	"github.com/nacos-group/nacos-sdk-go/model"
-	"github.com/nacos-group/nacos-sdk-go/util"
-	"github.com/nacos-group/nacos-sdk-go/vo"
+	"github.com/lsls907/nacos-sdk-go/clients/cache"
+	"github.com/lsls907/nacos-sdk-go/clients/nacos_client"
+	"github.com/lsls907/nacos-sdk-go/common/constant"
+	"github.com/lsls907/nacos-sdk-go/model"
+	"github.com/lsls907/nacos-sdk-go/util"
+	"github.com/lsls907/nacos-sdk-go/vo"
 	"github.com/pkg/errors"
 )
 

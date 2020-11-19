@@ -18,7 +18,6 @@ package nacos_client
 
 import (
 	"errors"
-	"log"
 	"os"
 	"strconv"
 
@@ -66,11 +65,11 @@ func (client *NacosClient) SetClientConfig(config constant.ClientConfig) (err er
 		config.CacheDir = file.GetCurrentPath() + string(os.PathSeparator) + "cache"
 	}
 
-	if config.LogDir == "" {
-		config.LogDir = file.GetCurrentPath() + string(os.PathSeparator) + "log"
-	}
+	//if config.LogDir == "" {
+	//	config.LogDir = file.GetCurrentPath() + string(os.PathSeparator) + "log"
+	//}
 
-	log.Printf("[INFO] logDir:<%s>   cacheDir:<%s>", config.LogDir, config.CacheDir)
+	//log.Printf("[INFO] logDir:<%s>   cacheDir:<%s>", config.LogDir, config.CacheDir)
 	client.clientConfig = config
 	client.clientConfigValid = true
 

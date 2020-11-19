@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/nacos-group/nacos-sdk-go/common/logger"
-	"github.com/nacos-group/nacos-sdk-go/util"
+	"github.com/lsls907/nacos-sdk-go/common/logger"
+	"github.com/lsls907/nacos-sdk-go/util"
 )
 
 type PushReceiver struct {

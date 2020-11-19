@@ -37,3 +37,4 @@ type INacosClient interface {
 	//GetHttpAgent use to get http agent
 	GetHttpAgent() (http_agent.IHttpAgent, error)
 }
+
