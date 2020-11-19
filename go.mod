@@ -1,6 +1,6 @@
 module github.com/lsls907/nacos-sdk-go
 
-go 1.13
+       go 1.13
 
 require (
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.18
@@ -19,6 +19,7 @@ require (
 	github.com/stretchr/testify v1.5.1
 	github.com/tebeka/strftime v0.1.3 // indirect
 	github.com/toolkits/concurrent v0.0.0-20150624120057-a4371d70e3e3
+
 	go.uber.org/zap v1.15.0
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127
 )
