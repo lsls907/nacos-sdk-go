@@ -1,6 +1,6 @@
 module github.com/lsls907/nacos-sdk-go
 
-go 1.12
+go 1.13
 
 require (
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.18
@@ -16,7 +16,6 @@ require (
 	github.com/lestrrat/go-strftime v0.0.0-20180220042222-ba3bf9c1d042 // indirect
 	github.com/maybgit/glog v0.0.0-20191227054433-876fb1c0aa21
 	github.com/pkg/errors v0.9.1
-	github.com/lsls907/nacos-sdk-go v0.0.0-20201119023842-e7da3bfa4d91
 	github.com/stretchr/testify v1.5.1
 	github.com/tebeka/strftime v0.1.3 // indirect
 	github.com/toolkits/concurrent v0.0.0-20150624120057-a4371d70e3e3
