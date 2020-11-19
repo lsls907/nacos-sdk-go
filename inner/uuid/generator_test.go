@@ -28,8 +28,6 @@ import (
 	"net"
 	"testing/iotest"
 	"time"
-
-	. "gopkg.in/check.v1"
 )
 
 type faultyReader struct {

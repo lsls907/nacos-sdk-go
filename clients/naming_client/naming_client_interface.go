@@ -23,7 +23,6 @@ import (
 //go:generate mockgen -destination ../../mock/mock_service_client_interface.go -package mock -source=./service_client_interface.go
 
 type INamingClient interface {
-
 	//RegisterInstance use to register instance
 	//Ip  require
 	//Port  require

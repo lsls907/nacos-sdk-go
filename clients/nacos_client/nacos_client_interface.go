@@ -24,7 +24,6 @@ import (
 //go:generate mockgen -destination mock_nacos_client_interface.go -package nacos_client -source=./nacos_client_interface.go
 
 type INacosClient interface {
-
 	//SetClientConfig is use to set nacos client config
 	SetClientConfig(constant.ClientConfig) error
 	//SetServerConfig is use to set nacos server config

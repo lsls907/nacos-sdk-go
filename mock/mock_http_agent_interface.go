@@ -21,10 +21,10 @@
 package mock
 
 import (
-	http "net/http"
-	reflect "reflect"
+	"net/http"
+	"reflect"
 
-	gomock "github.com/golang/mock/gomock"
+	"github.com/golang/mock/gomock"
 )
 
 // MockIHttpAgent is a mock of IHttpAgent interface

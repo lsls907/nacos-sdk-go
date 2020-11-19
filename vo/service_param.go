@@ -18,6 +18,7 @@ package vo
 
 import "github.com/lsls907/nacos-sdk-go/model"
 
+
 type RegisterInstanceParam struct {
 	Ip          string            `param:"ip"`          //required
 	Port        uint64            `param:"port"`        //required
@@ -54,9 +55,9 @@ type GetAllServiceInfoParam struct {
 }
 
 type SubscribeParam struct {
-	ServiceName       string                                             `param:"serviceName"` //required
-	Clusters          []string                                           `param:"clusters"`    //optional,default:DEFAULT
-	GroupName         string                                             `param:"groupName"`   //optional,default:DEFAULT_GROUP
+	ServiceName       string   `param:"serviceName"`               //required
+	Clusters          []string `param:"clusters"`                  //optional,default:DEFAULT
+	GroupName         string   `param:"groupName"`                 //optional,default:DEFAULT_GROUP
 	SubscribeCallback func(services []model.SubscribeService, err error) //required
 }
 
